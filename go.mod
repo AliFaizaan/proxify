@@ -13,19 +13,20 @@ require (
 	github.com/haxii/fastproxy v0.5.37
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/dsl v0.0.2
-	github.com/projectdiscovery/fastdialer v0.0.15
+	github.com/projectdiscovery/fastdialer v0.0.20
 	github.com/projectdiscovery/goflags v0.0.8-0.20220304165250-2530b305a4a9
 	github.com/projectdiscovery/gologger v1.1.4
 	github.com/projectdiscovery/mapsutil v0.0.1
-	github.com/projectdiscovery/stringsutil v0.0.0-20220208075244-7c05502ca8e9
+	github.com/projectdiscovery/stringsutil v0.0.2
 	github.com/projectdiscovery/tinydns v0.0.1
 	github.com/rs/xid v1.4.0
-	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
+	golang.org/x/net v0.4.0
 )
 
 require (
 	github.com/Knetic/govaluate v3.0.0+incompatible // indirect
 	github.com/akrylysov/pogreb v0.10.1 // indirect
+	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/cnf/structhash v0.0.0-20201127153200-e1b16c1ebc08 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
@@ -34,6 +35,7 @@ require (
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/elazarl/goproxy/ext v0.0.0-20210110162100-a92cc753f88e // indirect
 	github.com/golang/snappy v0.0.4 // indirect
+	github.com/gorilla/css v1.0.0 // indirect
 	github.com/hashicorp/go-uuid v1.0.2 // indirect
 	github.com/jcmturner/aescts/v2 v2.0.0 // indirect
 	github.com/jcmturner/dnsutils/v2 v2.0.0 // indirect
@@ -41,34 +43,38 @@ require (
 	github.com/jcmturner/gokrb5/v8 v8.4.2 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/json-iterator/go v1.1.11 // indirect
-	github.com/karrick/godirwalk v1.16.1 // indirect
 	github.com/klauspost/compress v1.14.4 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
-	github.com/miekg/dns v1.1.43 // indirect
+	github.com/microcosm-cc/bluemonday v1.0.21 // indirect
+	github.com/miekg/dns v1.1.50 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
-	github.com/projectdiscovery/blackrock v0.0.0-20210415162320-b38689ae3a2e // indirect
-	github.com/projectdiscovery/cryptoutil v0.0.0-20210805184155-b5d2512f9345 // indirect
-	github.com/projectdiscovery/fileutil v0.0.0-20220215113056-ba188a0c8abc // indirect
+	github.com/projectdiscovery/fileutil v0.0.3 // indirect
 	github.com/projectdiscovery/hmap v0.0.2-0.20210917080408-0fd7bd286bfa // indirect
-	github.com/projectdiscovery/iputil v0.0.0-20210804143329-3a30fcde43f3 // indirect
-	github.com/projectdiscovery/mapcidr v0.0.8 // indirect
-	github.com/projectdiscovery/networkpolicy v0.0.1 // indirect
-	github.com/projectdiscovery/retryabledns v1.0.13-0.20210916165024-76c5b76fd59a // indirect
+	github.com/projectdiscovery/iputil v0.0.2 // indirect
+	github.com/projectdiscovery/networkpolicy v0.0.3 // indirect
+	github.com/projectdiscovery/retryabledns v1.0.17 // indirect
 	github.com/projectdiscovery/retryablehttp-go v1.0.2 // indirect
+	github.com/projectdiscovery/sliceutil v0.0.1 // indirect
+	github.com/projectdiscovery/utils v0.0.3 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
+	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/syndtr/goleveldb v1.0.0 // indirect
 	github.com/ulule/deepcopier v0.0.0-20200430083143-45decc6639b6 // indirect
-	github.com/weppos/publicsuffix-go v0.15.1-0.20210928183822-5ee35905bd95 // indirect
+	github.com/weppos/publicsuffix-go v0.15.1-0.20220724114530-e087fba66a37 // indirect
 	github.com/yl2chen/cidranger v1.0.2 // indirect
 	github.com/zmap/rc2 v0.0.0-20131011165748-24b9757f5521 // indirect
-	github.com/zmap/zcrypto v0.0.0-20211005224000-2d0ffdec8a9b // indirect
+	github.com/zmap/zcrypto v0.0.0-20220803033029-557f3e4940be // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
-	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
-	golang.org/x/text v0.3.7 // indirect
+	go.uber.org/atomic v1.10.0 // indirect
+	go.uber.org/multierr v1.8.0 // indirect
+	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/mod v0.6.0 // indirect
+	golang.org/x/sys v0.3.0 // indirect
+	golang.org/x/text v0.5.0 // indirect
+	golang.org/x/tools v0.2.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
